@@ -41,6 +41,34 @@ console.log(typeof big)
 console.log(typeof id)
 
 
+//Non primitive datatypes
+
+//object
+const user = {
+    name: "Sai",
+    age: 24,
+}
+
+const numbers = [1, 2, 4, 5, 6];
+
+
+function employee(salary, bonus) {
+    let result = (bonus * salary) / 100;
+    console.log(`employee salary : ${salary} and 5% bonus of ${result}`)
+}
+
+employee(10000, 5);
+
+
+//Date is also a object
+let d = new Date()
+console.log(d.getDate())
+console.log(typeof d)
+
+console.log(typeof user)
+console.log(typeof numbers)
+console.log(typeof employee)
+
 
 
 
